@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.body_grid{
+	display: grid;
+	border: 1px green solid;
+	grid-template-columns:165px 1fr;
+	overflow-y:scroll;
+	height: 410px;
+}
+.wrap>ol{
+	list-style: circle;
+}
+.body_grid>div>li{
+	//background-color: #81bbbc;
+	margin-left: 30px;
+}
+.g_img{
+	background-color: #ceedcb;
+	border: 1px grey solid;
+}
+.g_msg{
+	background-color: #d5e8fb;
+	border: 1px grey solid;
+}
